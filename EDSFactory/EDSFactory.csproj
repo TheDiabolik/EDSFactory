@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C1403F1A-0B6F-4A93-93B7-86A36F7E00FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDSFactory</RootNamespace>
+    <AssemblyName>EDSFactory</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>c0589910</NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>isbak-disi-logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.FFMPEG, Version=2.2.5.0, Culture=neutral, PublicKeyToken=03563089b1be05dd, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\AForge.Video.FFMPEG.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.VFW, Version=2.2.4.0, Culture=neutral, PublicKeyToken=a82f807c999637c8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\AForge.Video.VFW.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v13.2.Core, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v13.2, Version=13.2.13.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DirectShowLib-2005, Version=2.1.0.0, Culture=neutral, PublicKeyToken=67e7b740cdfc2d3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DirectShowLib-2005.dll</HintPath>
+    </Reference>
+    <Reference Include="DirectX.Capture, Version=1.0.4641.34495, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DirectX.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="DShowNET, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DShowNET.dll</HintPath>
+    </Reference>
+    <Reference Include="IPAddressControlLib, Version=1.0.3039.20052, Culture=neutral, PublicKeyToken=9695e912950a5d9b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IPAddressControlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SQLite, Version=1.0.103.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.103\lib\net45\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.103.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.103\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.103.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.103\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WorkPlanSchema, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WorkPlanSchema.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AbortableBackgroundWorker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\CameraBuilder\Camera.cs" />
+    <Compile Include="Classes\CameraBuilder\CameraBuilder.cs" />
+    <Compile Include="Classes\CameraBuilder\CameraCreator.cs" />
+    <Compile Include="Classes\CameraBuilder\JPEGCameraBuilder.cs" />
+    <Compile Include="Classes\CameraBuilder\MJPEGCameraBuilder.cs" />
+    <Compile Include="Classes\CheckImageNameOrList.cs" />
+    <Compile Include="Classes\Database Classes\Abstracts\Database.cs" />
+    <Compile Include="Classes\Database Classes\AreaViolation\CrosshatchDatabase.cs" />
+    <Compile Include="Classes\Database Classes\ConnectionString.cs" />
+    <Compile Include="Classes\Database Classes\IDatabase.cs" />
+    <Compile Include="Classes\Database Classes\SpeedViolation\CorridorSpeedDatabase.cs" />
+    <Compile Include="Classes\Database Classes\SpeedViolation\FixedHighwayShoulderDatabase.cs" />
+    <Compile Include="Classes\Database Classes\SyncFileNames.cs" />
+    <Compile Include="Classes\Database Classes\TimeViolation\FixedParkingDatabase.cs" />
+    <Compile Include="Classes\Database Classes\TimeViolation\MobileParkingDatabase.cs" />
+    <Compile Include="Classes\Database Classes\SpeedViolation\CorridorSpeedWideDatabase.cs" />
+    <Compile Include="Classes\Database Classes\AreaViolation\MobileHighwayShoulderDatabase.cs" />
+    <Compile Include="Classes\Database Classes\AreaViolation\StandingDatabase.cs" />
+    <Compile Include="Classes\DisplayManager.cs" />
+    <Compile Include="Classes\EDSType.cs" />
+    <Compile Include="Classes\Enums.cs" />
+    <Compile Include="Classes\ExtensionMethods\ConcurrentQueueExtensions.cs" />
+    <Compile Include="Classes\ExtensionMethods\SocketExtensions.cs" />
+    <Compile Include="Classes\ExtensionsClone.cs" />
+    <Compile Include="Classes\FileOperation.cs" />
+    <Compile Include="Classes\ImageName.cs" />
+    <Compile Include="Classes\ImageSize.cs" />
+    <Compile Include="Classes\IsInProcess\IWorkingInformer.cs" />
+    <Compile Include="Classes\IsInProcess\IWorkingWatcher.cs" />
+    <Compile Include="Classes\IsInProcess\WorkingInformer.cs" />
+    <Compile Include="Classes\Logging.cs" />
+    <Compile Include="Classes\MediatorPattern\CorridorSpeedWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\CrosshatchWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\FixedHighwayShoulderWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\FixedParkingWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\Mediator.cs" />
+    <Compile Include="Classes\MediatorPattern\MobileHighwayShoulderWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\MobileParkingWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\CorridorSpeedWideWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\StandingWorkingOperation.cs" />
+    <Compile Include="Classes\MediatorPattern\ViolationWorkingOperation.cs" />
+    <Compile Include="Classes\Messages\ExceptionMessages.cs" />
+    <Compile Include="Classes\Messages\UserMessages.cs" />
+    <Compile Include="Classes\ProcessStartTypeStrategy\IProcessStartType.cs" />
+    <Compile Include="Classes\ProcessStartTypeStrategy\ProcessTypeSocket.cs" />
+    <Compile Include="Classes\ProcessStartTypeStrategy\ProcessTypeStarter.cs" />
+    <Compile Include="Classes\ProcessStartTypeStrategy\ProcessTypeTimer.cs" />
+    <Compile Include="Classes\ReSizer.cs" />
+    <Compile Include="Classes\SafeEnumerator.cs" />
+    <Compile Include="Classes\SerialPortFixer.cs" />
+    <Compile Include="Classes\Serilization\DictionarySerializableClass.cs" />
+    <Compile Include="Classes\Serilization\Serilization.cs" />
+    <Compile Include="Classes\Serilization\SerializationPaths.cs" />
+    <Compile Include="Classes\Settings\Abstract Classes\SettingsBase.cs" />
+    <Compile Include="Classes\Settings\EDS Types\AreaViolation\Crosshatch.cs" />
+    <Compile Include="Classes\Settings\EDS Types\AreaViolation\MobileHighwayShoulder.cs" />
+    <Compile Include="Classes\Settings\EDS Types\AreaViolation\Standing.cs" />
+    <Compile Include="Classes\CameraBuilder\CameraProperties.cs" />
+    <Compile Include="Classes\Settings\EDS Types\SpeedViolation\CorridorSpeed.cs" />
+    <Compile Include="Classes\Settings\EDS Types\SpeedViolation\FixedHighwayShoulder.cs" />
+    <Compile Include="Classes\Settings\EDS Types\SpeedViolation\CorridorSpeedWide.cs" />
+    <Compile Include="Classes\CameraBuilder\ICamera.cs" />
+    <Compile Include="Classes\Settings\EDS Types\TimeViolation\FixedParking.cs" />
+    <Compile Include="Classes\Settings\EDS Types\TimeViolation\MobileParking.cs" />
+    <Compile Include="Classes\Settings\HelperModuls\PTZControlSettings.cs" />
+    <Compile Include="Classes\Settings\HelperModuls\TimeSync.cs" />
+    <Compile Include="Classes\Settings\HelperModuls\VideoSaver.cs" />
+    <Compile Include="Classes\Settings\MainAndWorkPlan.cs" />
+    <Compile Include="Classes\StringFormatOperation.cs" />
+    <Compile Include="Classes\SyncFileCreateObserver\ISyncFileCreate.cs" />
+    <Compile Include="Classes\SyncFileCreateObserver\ISyncFileWatcher.cs" />
+    <Compile Include="Classes\SyncFileCreateObserver\SyncFileCreate.cs" />
+    <Compile Include="Classes\TagsConnection\Client.cs" />
+    <Compile Include="Classes\TagsConnection\Server.cs" />
+    <Compile Include="Classes\TagsConnection\SocketCommunication.cs" />
+    <Compile Include="Classes\ThreadSafeList.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncObserver\ITimeSyncTool.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncObserver\ITimeSyncToolWatcher.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncObserver\TimeSyncTool.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncState\GPSTimeTool.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncState\ITimeSyncStatus.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncState\NTPTimeTool.cs" />
+    <Compile Include="Classes\TimeSync\TimeSyncState\TimeTool.cs" />
+    <Compile Include="Classes\TimeSync\GPS.cs" />
+    <Compile Include="Classes\TimeSync\NetworkTime.cs" />
+    <Compile Include="Classes\VerificateImageName.cs" />
+    <Compile Include="Classes\CameraBuilder\BitmapOperation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\CrosshatchViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\FixedHighwayShoulderViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\FixedParkingViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\IViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\MobileHighwayShoulderViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\MobileParkingViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\StandingViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\ScanForViolation\ViolationTypeChooser.cs" />
+    <Compile Include="Classes\ViolationFactory\TriggeredViolation\ITriggeredViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\TriggeredViolation\SpeedCorridorViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\TriggeredViolation\SpeedCorridorWideImageViolation.cs" />
+    <Compile Include="Classes\ViolationFactory\TriggeredViolation\TriggeredViolation.cs" />
+    <Compile Include="Classes\ViolationImagesNameFormat.cs" />
+    <Compile Include="Classes\ViolationsDate.cs" />
+    <Compile Include="Classes\ViolationStatusObserver\DataSourceWatcher.cs" />
+    <Compile Include="Classes\ViolationStatusObserver\IDataSourceChanged.cs" />
+    <Compile Include="Classes\ViolationStatusObserver\IDataSourceWatcher.cs" />
+    <Compile Include="EDSType\CorridorSpeed\Narrow\CorridorSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Narrow\CorridorSpeed.Designer.cs">
+      <DependentUpon>CorridorSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Narrow\CorridorSpeedSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Narrow\CorridorSpeedSettingsModal.Designer.cs">
+      <DependentUpon>CorridorSpeedSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Wide\CorridorSpeedWide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Wide\CorridorSpeedWide.Designer.cs">
+      <DependentUpon>CorridorSpeedWide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Wide\CorridorSpeedWideSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\CorridorSpeed\Wide\CorridorSpeedWideSettingsModal.Designer.cs">
+      <DependentUpon>CorridorSpeedWideSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Fixed\FixedHighwayShoulder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Fixed\FixedHighwayShoulder.Designer.cs">
+      <DependentUpon>FixedHighwayShoulder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Fixed\FixedHighwayShoulderSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Fixed\FixedHighwayShoulderSettingsModal.Designer.cs">
+      <DependentUpon>FixedHighwayShoulderSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Mobile\MobileHighwayShoulder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Mobile\MobileHighwayShoulder.Designer.cs">
+      <DependentUpon>MobileHighwayShoulder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Mobile\MobileHighwayShoulderSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\HighwayShoulder\Mobile\MobileHighwayShoulderSettingsModal.Designer.cs">
+      <DependentUpon>MobileHighwayShoulderSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Offset\Offset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Offset\Offset.Designer.cs">
+      <DependentUpon>Offset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Offset\OffsetSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Offset\OffsetSettingsModal.Designer.cs">
+      <DependentUpon>OffsetSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Parking\Fixed\FixedParking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Parking\Fixed\FixedParking.Designer.cs">
+      <DependentUpon>FixedParking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Parking\Fixed\FixedParkingSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Parking\Fixed\FixedParkingSettingsModal.Designer.cs">
+      <DependentUpon>FixedParkingSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Parking\Mobile\MobileParking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Parking\Mobile\MobileParking.Designer.cs">
+      <DependentUpon>MobileParking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Parking\Mobile\MobileParkingSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Parking\Mobile\MobileParkingSettingsModal.Designer.cs">
+      <DependentUpon>MobileParkingSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Standing\Standing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Standing\Standing.Designer.cs">
+      <DependentUpon>Standing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EDSType\Standing\StandingSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EDSType\Standing\StandingSettingsModal.Designer.cs">
+      <DependentUpon>StandingSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperModuls\PTZCameraControl\D.cs" />
+    <Compile Include="HelperModuls\PTZCameraControl\PTZCameraControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperModuls\PTZCameraControl\PTZCameraControl.Designer.cs">
+      <DependentUpon>PTZCameraControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperModuls\PTZCameraControl\PTZControlSettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperModuls\PTZCameraControl\PTZControlSettingsModal.Designer.cs">
+      <DependentUpon>PTZControlSettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperModuls\Settings\SettingsModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperModuls\Settings\SettingsModal.Designer.cs">
+      <DependentUpon>SettingsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperModuls\TimeSynchroniser\Ini.cs" />
+    <Compile Include="HelperModuls\TimeSynchroniser\TimeSynchroniser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperModuls\TimeSynchroniser\TimeSynchroniser.Designer.cs">
+      <DependentUpon>TimeSynchroniser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HelperModuls\VideoBuffer\VideoModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelperModuls\VideoBuffer\VideoModal.Designer.cs">
+      <DependentUpon>VideoModal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\CorridorSpeed\Narrow\CorridorSpeed.resx">
+      <DependentUpon>CorridorSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\CorridorSpeed\Narrow\CorridorSpeedSettingsModal.resx">
+      <DependentUpon>CorridorSpeedSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\CorridorSpeed\Wide\CorridorSpeedWide.resx">
+      <DependentUpon>CorridorSpeedWide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\CorridorSpeed\Wide\CorridorSpeedWideSettingsModal.resx">
+      <DependentUpon>CorridorSpeedWideSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\HighwayShoulder\Fixed\FixedHighwayShoulder.resx">
+      <DependentUpon>FixedHighwayShoulder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\HighwayShoulder\Fixed\FixedHighwayShoulderSettingsModal.resx">
+      <DependentUpon>FixedHighwayShoulderSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\HighwayShoulder\Mobile\MobileHighwayShoulder.resx">
+      <DependentUpon>MobileHighwayShoulder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\HighwayShoulder\Mobile\MobileHighwayShoulderSettingsModal.resx">
+      <DependentUpon>MobileHighwayShoulderSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Offset\Offset.resx">
+      <DependentUpon>Offset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Offset\OffsetSettingsModal.resx">
+      <DependentUpon>OffsetSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Parking\Fixed\FixedParking.resx">
+      <DependentUpon>FixedParking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Parking\Fixed\FixedParkingSettingsModal.resx">
+      <DependentUpon>FixedParkingSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Parking\Mobile\MobileParking.resx">
+      <DependentUpon>MobileParking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Parking\Mobile\MobileParkingSettingsModal.resx">
+      <DependentUpon>MobileParkingSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Standing\Standing.resx">
+      <DependentUpon>Standing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EDSType\Standing\StandingSettingsModal.resx">
+      <DependentUpon>StandingSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelperModuls\PTZCameraControl\PTZCameraControl.resx">
+      <DependentUpon>PTZCameraControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelperModuls\PTZCameraControl\PTZControlSettingsModal.resx">
+      <DependentUpon>PTZControlSettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelperModuls\Settings\SettingsModal.resx">
+      <DependentUpon>SettingsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelperModuls\TimeSynchroniser\TimeSynchroniser.resx">
+      <DependentUpon>TimeSynchroniser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="HelperModuls\VideoBuffer\VideoModal.resx">
+      <DependentUpon>VideoModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\standing.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canttouchthis1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_in1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fixed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Joystick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Highway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\park1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koridor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emniyet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="isbak-beyaz.ico" />
+    <Content Include="isbak-disi-logo.ico" />
+    <Content Include="isbak.ico" />
+    <None Include="Resources\isbak-beyaz.png" />
+    <None Include="Resources\videobuffer.png" />
+    <None Include="Resources\Settings1.png" />
+    <None Include="Resources\camdisplay.png" />
+    <None Include="Resources\test.jpg" />
+    <None Include="Resources\PixelKit_road_cone_icon.png" />
+    <None Include="Resources\endividedroad.jpg" />
+    <None Include="Resources\1024a.png" />
+    <None Include="Resources\duraklama.png" />
+    <None Include="Resources\logo_isbak.jpg" />
+    <None Include="Resources\wide.png" />
+    <None Include="Resources\narrow.png" />
+    <None Include="Resources\noimage.png" />
+    <None Include="Resources\noimage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.103\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.103\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.103\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.103\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

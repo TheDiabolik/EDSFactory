@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<FixedHighwayShoulderSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\Plakalar</m_imagePath>
+  <m_violationImagesPath>D:\yeni park\ihlal</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\yeni park\küçük</m_thumbNailImagesPath>
+  <m_deleteImages>true</m_deleteImages>
+  <m_protectViolationTime>24</m_protectViolationTime>
+  <m_distance>69</m_distance>
+  <m_speed>20</m_speed>
+  <m_applyTolerance>true</m_applyTolerance>
+  <m_tolerancePercentage>10</m_tolerancePercentage>
+  <m_cameras>
+    <Camera>
+      <m_entryCamStreamType>1</m_entryCamStreamType>
+      <m_entryCamCameraFPS>25</m_entryCamCameraFPS>
+      <m_entryCamCameraURL>http://10.13.188.11/Streaming/Channels/3/picture?snapShotImageType=JPEG&amp;videoResolutionWidth=640&amp;videoResolutionHeight=480</m_entryCamCameraURL>
+      <m_entryCamUserName>admin</m_entryCamUserName>
+      <m_entryCamPassword>12345</m_entryCamPassword>
+    </Camera>
+    <Camera>
+      <m_entryCamStreamType>1</m_entryCamStreamType>
+      <m_entryCamCameraFPS>25</m_entryCamCameraFPS>
+      <m_entryCamCameraURL>http://10.13.188.13/Streaming/Channels/3/picture?snapShotImageType=JPEG&amp;videoResolutionWidth=640&amp;videoResolutionHeight=480</m_entryCamCameraURL>
+      <m_entryCamUserName>admin</m_entryCamUserName>
+      <m_entryCamPassword>12345</m_entryCamPassword>
+    </Camera>
+  </m_cameras>
+  <m_scanImageTime>11</m_scanImageTime>
+  <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+</FixedHighwayShoulderSettings>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CorridorSpeedWideSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath />
+  <m_violationImagesPath />
+  <m_thumbNailImagesPath />
+  <m_deleteImages>false</m_deleteImages>
+  <m_protectViolationTime>2</m_protectViolationTime>
+  <m_distance>0</m_distance>
+  <m_speed>0</m_speed>
+  <m_applyTolerance>false</m_applyTolerance>
+  <m_tolerancePercentage>0</m_tolerancePercentage>
+  <m_workingType>false</m_workingType>
+  <m_showLaneInWideImage>false</m_showLaneInWideImage>
+</CorridorSpeedWideSettings>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cameras>
+    <CameraSettings>
+      <m_streamType>0</m_streamType>
+      <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+      <m_cameraURL>http://10.2.8.136/image1</m_cameraURL>
+      <m_userName>admin</m_userName>
+      <m_password>admin</m_password>
+    </CameraSettings>
+    <CameraSettings>
+      <m_streamType>0</m_streamType>
+      <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+      <m_cameraURL>http://10.13.147.14/axis-cgi/mjpg/video.cgi?resolution=640x480</m_cameraURL>
+      <m_userName>root</m_userName>
+      <m_password>root</m_password>
+    </CameraSettings>
+  </Cameras>
+</Video>

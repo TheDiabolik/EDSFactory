@@ -1,0 +1,8 @@
+versiyon 1.0.0.1 -> duraklama eds eklendi
+versiyon 1.0.0.2 -> ofset tarama eds eklendi, arayüz deðiþtirildi.
+versiyon 1.0.0.3 -> ofset ve duraklama eds silme butonundaki hata düzeltildi.
+versiyon 1.0.0.4 -> mobil park eds resim göstermeme hatasý düzeltildi
+Versiyon 1.5.0.4 -> senkron dosyalarýn listelenme metodu deðiþtirildi, ihlal metodlarý buna göre güncellendi. 
+			Dosya isim formatlarýný doðrulamak için regex sýnýfý yazýldý ve eklendi.
+Versiyon 1.5.6.4 -> senkron dosyalarýn kaydedilmesi ve okunmasý asenktron olarak revize edildi, dosya silinme iþlemleri asenkron yapýldý,
+			ve kullanýmdaki dosyalar üzerinde iþlemler bitene kadar beklenme eklendi.

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<FixedParkingSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>E:\evde bakılcak</m_imagePath>
+  <m_violationImagesPath>D:\yeni park\ihlal</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\yeni park\küçük</m_thumbNailImagesPath>
+  <m_deleteImages>true</m_deleteImages>
+  <m_protectViolationTime>4</m_protectViolationTime>
+  <m_minViolationTimeMinute>0</m_minViolationTimeMinute>
+  <m_minViolationTimeHour>0</m_minViolationTimeHour>
+  <m_minViolationTimeSecond>30</m_minViolationTimeSecond>
+  <m_maxViolationTimeSecond>0</m_maxViolationTimeSecond>
+  <m_maxViolationTimeMinute>1</m_maxViolationTimeMinute>
+  <m_maxViolationTimeHour>0</m_maxViolationTimeHour>
+  <m_scanImageTime>5</m_scanImageTime>
+  <m_videoMode>false</m_videoMode>
+</FixedParkingSettings>

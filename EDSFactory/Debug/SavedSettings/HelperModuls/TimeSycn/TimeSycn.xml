@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<TimeSync xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_GPSActive>false</m_GPSActive>
+  <m_portName>COM3</m_portName>
+  <m_baudRate>2</m_baudRate>
+  <m_dataBits>8</m_dataBits>
+  <m_parity>None</m_parity>
+  <m_stopBits>One</m_stopBits>
+  <m_autoStart>true</m_autoStart>
+  <m_timeServerIP>10.5.1.10</m_timeServerIP>
+  <m_syncSecond>2</m_syncSecond>
+  <m_deleteUnsynFile>false</m_deleteUnsynFile>
+  <m_openProcess>false</m_openProcess>
+  <m_processPath>C:\Program Files (x86)\TeamViewer\TeamViewer.exe</m_processPath>
+  <m_imagePath>D:\Plates</m_imagePath>
+</TimeSync>

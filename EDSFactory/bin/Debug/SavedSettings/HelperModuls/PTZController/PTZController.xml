@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<PTZControlSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_portName />
+  <m_baudRate>2400</m_baudRate>
+  <m_dataBits>8</m_dataBits>
+  <m_parity>None</m_parity>
+  <m_stopBits>One</m_stopBits>
+  <m_autoStart>true</m_autoStart>
+  <m_presetChoice>true</m_presetChoice>
+  <m_comPortStatus>false</m_comPortStatus>
+  <m_presetChangingTime>0</m_presetChangingTime>
+  <m_totalPresetNumber>10</m_totalPresetNumber>
+  <m_lensSpeed>Turbo</m_lensSpeed>
+  <m_waitingTime>4</m_waitingTime>
+  <m_waitingTimeUnit>true</m_waitingTimeUnit>
+  <TourPreset1>
+    <item>
+      <key>
+        <int>2</int>
+      </key>
+      <value>
+        <string>TurGrup1</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>4</int>
+      </key>
+      <value>
+        <string>TurGrup1</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>220</int>
+      </key>
+      <value>
+        <string>TurGrup1</string>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>223</int>
+      </key>
+      <value>
+        <string>TurGrup1</string>
+      </value>
+    </item>
+  </TourPreset1>
+  <TourPreset2 />
+  <TourPreset3 />
+  <TourPreset4 />
+  <TourPreset5 />
+  <TourPreset6 />
+  <TourPreset7 />
+  <TourPreset8 />
+  <TourPreset9 />
+  <TourPreset10 />
+</PTZControlSettings>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CorridorSpeedSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\Plakalar</m_imagePath>
+  <m_violationImagesPath>D:\Rcfile2\JPG</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\kucuk</m_thumbNailImagesPath>
+  <m_deleteImages>false</m_deleteImages>
+  <m_protectViolationTime>24</m_protectViolationTime>
+  <m_distance>4052</m_distance>
+  <m_speed>20</m_speed>
+  <m_applyTolerance>true</m_applyTolerance>
+  <m_tolerancePercentage>10</m_tolerancePercentage>
+  <m_entryTagPath>D:\Plakalar</m_entryTagPath>
+  <m_entryTagIP>10.13.181.3</m_entryTagIP>
+  <m_entryTagPort>5050</m_entryTagPort>
+  <m_entryTagListenPort>5050</m_entryTagListenPort>
+  <m_workingType>false</m_workingType>
+</CorridorSpeedSettings>

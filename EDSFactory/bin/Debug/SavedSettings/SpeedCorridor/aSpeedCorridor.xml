@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<CorridorSpeedSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <m_imagePath>D:\Plakalar</m_imagePath>
+  <m_violationImagesPath>D:\Yeni klasör</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\Yeni klasör\Yeni klasör (2)</m_thumbNailImagesPath>
+  <m_deleteImages>false</m_deleteImages>
+  <m_protectViolationTime>24</m_protectViolationTime>
+  <m_distance>1000</m_distance>
+  <m_speed>50</m_speed>
+  <m_applyTolerance>true</m_applyTolerance>
+  <m_tolerancePercentage>10</m_tolerancePercentage>
+  <m_entryTagPath />
+  <m_entryTagIP>10.3.30.67</m_entryTagIP>
+  <m_entryTagPort>5050</m_entryTagPort>
+  <m_entryTagListenPort />
+  <m_workingType>false</m_workingType>
+</CorridorSpeedSettings>

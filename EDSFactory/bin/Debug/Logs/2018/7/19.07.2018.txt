@@ -1,0 +1,36 @@
+-------------------------------------
+Hata Zamanı : 
+19.07.2018 09:47:37
+
+Hata Mesajı :
+Yuva bağlı olmadığından ve (bir veri birimi yuvasında bir sento çağrısı kullanırken) adres sağlanmadığından bir veri gönderme veya alma isteğine izin verilmedi
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   konum: EDSFactory.SocketCommunication.Client.SendMsgToServer(String msg) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 370
+
+Hata Oluşan Metot :
+System.IAsyncResult BeginSend(Byte[], Int32, Int32, System.Net.Sockets.SocketFlags, System.AsyncCallback, System.Object)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+19.07.2018 09:47:42
+
+Hata Mesajı :
+Yuva bağlı olmadığından ve (bir veri birimi yuvasında bir sento çağrısı kullanırken) adres sağlanmadığından bir veri gönderme veya alma isteğine izin verilmedi
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Net.Sockets.Socket.BeginSend(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, AsyncCallback callback, Object state)
+   konum: EDSFactory.SocketCommunication.Client.SendMsgToServer(String msg) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 370
+
+Hata Oluşan Metot :
+System.IAsyncResult BeginSend(Byte[], Int32, Int32, System.Net.Sockets.SocketFlags, System.AsyncCallback, System.Object)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------

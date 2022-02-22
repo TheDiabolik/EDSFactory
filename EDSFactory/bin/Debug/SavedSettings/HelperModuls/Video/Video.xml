@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\Plates</m_imagePath>
+  <m_firstCamera>true</m_firstCamera>
+  <m_secondCamera>false</m_secondCamera>
+  <m_thirdCamera>false</m_thirdCamera>
+  <m_fourthCamera>false</m_fourthCamera>
+  <m_autoStart>false</m_autoStart>
+  <m_firstCameraType>L1</m_firstCameraType>
+  <m_secondCameraType>L2</m_secondCameraType>
+  <m_thirdCameraType />
+  <m_fourthCameraType />
+  <Cameras>
+    <item>
+      <key>
+        <int>0</int>
+      </key>
+      <value>
+        <CameraSettings>
+          <m_streamType>0</m_streamType>
+          <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+          <m_cameraURL>http://10.10.202.10/axis-cgi/mjpg/video.cgi?resolution=640x480</m_cameraURL>
+          <m_userName>root</m_userName>
+          <m_password>root</m_password>
+        </CameraSettings>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>1</int>
+      </key>
+      <value>
+        <CameraSettings>
+          <m_streamType>0</m_streamType>
+          <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+          <m_cameraURL>http://10.13.147.14/axis-cgi/mjpg/video.cgi?resolution=640x480</m_cameraURL>
+          <m_userName>root</m_userName>
+          <m_password>root</m_password>
+        </CameraSettings>
+      </value>
+    </item>
+    <item>
+      <key>
+        <int>2</int>
+      </key>
+      <value>
+        <CameraSettings>
+          <m_streamType>-1</m_streamType>
+          <m_beforeAndAfterSecond>0</m_beforeAndAfterSecond>
+          <m_cameraURL />
+          <m_userName />
+          <m_password />
+        </CameraSettings>
+      </value>
+    </item>
+  </Cameras>
+</Video>

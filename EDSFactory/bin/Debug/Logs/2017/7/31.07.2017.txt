@@ -1,0 +1,52 @@
+-------------------------------------
+Hata Zamanı : 
+31.07.2017 10:03:40
+
+Hata Mesajı :
+'D:\Plates\sync' yoluna erişim reddedildi.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   konum: EDSFactory.FileOperation.IsFileLocked(String path) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 602
+   konum: EDSFactory.TimeSynchroniser.MoveFileSyncStatusFolder(Object o) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\HelperModuls\TimeSynchroniser\TimeSynchroniser.cs içinde: satır 371
+   konum: System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+Hata Oluşan Metot :
+Void WinIOError(Int32, System.String)
+
+Yorum :
+
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+31.07.2017 10:06:28
+
+Hata Mesajı :
+'D:\Plates\sync' yoluna erişim reddedildi.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   konum: EDSFactory.FileOperation.IsFileLocked(String path) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 602
+   konum: EDSFactory.TimeSynchroniser.MoveFileSyncStatusFolder(Object o) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\HelperModuls\TimeSynchroniser\TimeSynchroniser.cs içinde: satır 371
+   konum: System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+Hata Oluşan Metot :
+Void WinIOError(Int32, System.String)
+
+Yorum :
+
+
+-------------------------------------

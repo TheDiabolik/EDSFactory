@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FixedHighwayShoulderSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\Plakalar</m_imagePath>
+  <m_violationImagesPath>D:\ihlal</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\küçük</m_thumbNailImagesPath>
+  <m_deleteImages>true</m_deleteImages>
+  <m_protectViolationTime>24</m_protectViolationTime>
+  <m_distance>69</m_distance>
+  <m_speed>20</m_speed>
+  <m_applyTolerance>true</m_applyTolerance>
+  <m_tolerancePercentage>10</m_tolerancePercentage>
+  <m_scanImageTime>11</m_scanImageTime>
+  <m_videoMode>false</m_videoMode>
+</FixedHighwayShoulderSettings>

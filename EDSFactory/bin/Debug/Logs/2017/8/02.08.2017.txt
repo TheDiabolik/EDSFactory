@@ -1,0 +1,122 @@
+-------------------------------------
+Hata Zamanı : 
+02.08.2017 09:40:17
+
+Hata Mesajı :
+dosya taşınmak istenen kaynakta var!
+
+Hata Oluşan Kod Parçacığı :
+ex.StackTrace.ToString()
+
+Hata Oluşan Metot :
+ ex.TargetSite.ToString()
+
+Yorum :
+move metot
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+02.08.2017 10:54:04
+
+Hata Mesajı :
+Bir veya daha fazla hata oluştu.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   konum: System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   konum: System.Threading.Tasks.Task.Wait()
+   konum: EDSFactory.SocketCommunication.Client.SendNextImageName() d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 434
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 215
+
+Hata Oluşan Metot :
+Void ThrowIfExceptional(Boolean)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+02.08.2017 10:55:52
+
+Hata Mesajı :
+Bir veya daha fazla hata oluştu.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   konum: System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   konum: System.Threading.Tasks.Task.Wait()
+   konum: EDSFactory.SocketCommunication.Client.SendNextImageName() d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 434
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 215
+
+Hata Oluşan Metot :
+Void ThrowIfExceptional(Boolean)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+02.08.2017 10:56:57
+
+Hata Mesajı :
+Bir veya daha fazla hata oluştu.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   konum: System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   konum: System.Threading.Tasks.Task.Wait()
+   konum: EDSFactory.SocketCommunication.Client.SendNextImageName() d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 434
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 215
+
+Hata Oluşan Metot :
+Void ThrowIfExceptional(Boolean)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+02.08.2017 10:58:47
+
+Hata Mesajı :
+Bir veya daha fazla hata oluştu.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   konum: System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   konum: System.Threading.Tasks.Task.Wait()
+   konum: EDSFactory.SocketCommunication.Client.SendNextImageName() d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 434
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 215
+
+Hata Oluşan Metot :
+Void ThrowIfExceptional(Boolean)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+02.08.2017 11:00:30
+
+Hata Mesajı :
+Bir veya daha fazla hata oluştu.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   konum: System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   konum: System.Threading.Tasks.Task.Wait()
+   konum: EDSFactory.SocketCommunication.Client.SendNextImageName() d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 434
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 215
+
+Hata Oluşan Metot :
+Void ThrowIfExceptional(Boolean)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------

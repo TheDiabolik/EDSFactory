@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<StandingSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\Plates</m_imagePath>
+  <m_violationImagesPath>D:\mobilplanlamaihlal</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\mobilplanlamaküçük</m_thumbNailImagesPath>
+  <m_deleteImages>true</m_deleteImages>
+  <m_protectViolationTime>1</m_protectViolationTime>
+  <m_scanImageTime>10</m_scanImageTime>
+  <m_videoMode>false</m_videoMode>
+</StandingSettings>

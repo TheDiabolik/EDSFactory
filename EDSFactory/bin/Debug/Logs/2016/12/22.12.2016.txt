@@ -1,0 +1,84 @@
+-------------------------------------
+Hata Zamanı : 
+22.12.2016 11:59:57
+
+Hata Mesajı :
+'D:\' yoluna erişim reddedildi.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   konum: EDSFactory.FileOperation.IsFileLocked(String path) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 597
+   konum: EDSFactory.FileOperation.DeleteFileReturnValue(String imagePath, String imageName) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 527
+
+Hata Oluşan Metot :
+Void WinIOError(Int32, System.String)
+
+Yorum :
+DeleteFile toplu metot4
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+22.12.2016 12:00:17
+
+Hata Mesajı :
+'D:\' yoluna erişim reddedildi.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   konum: EDSFactory.FileOperation.IsFileLocked(String path) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 597
+   konum: EDSFactory.FileOperation.DeleteFileReturnValue(String imagePath, String imageName) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 527
+
+Hata Oluşan Metot :
+Void WinIOError(Int32, System.String)
+
+Yorum :
+DeleteFile toplu metot4
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+22.12.2016 12:00:18
+
+Hata Mesajı :
+'D:\' yoluna erişim reddedildi.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   konum: EDSFactory.FileOperation.IsFileLocked(String path) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 597
+   konum: EDSFactory.FileOperation.DeleteFileReturnValue(String imagePath, String imageName) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 527
+
+Hata Oluşan Metot :
+Void WinIOError(Int32, System.String)
+
+Yorum :
+DeleteFile toplu metot4
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+22.12.2016 12:00:19
+
+Hata Mesajı :
+'D:\' yoluna erişim reddedildi.
+
+Hata Oluşan Kod Parçacığı :
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   konum: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   konum: EDSFactory.FileOperation.IsFileLocked(String path) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 597
+   konum: EDSFactory.FileOperation.DeleteFileReturnValue(String imagePath, String imageName) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\FileOperation.cs içinde: satır 527
+
+Hata Oluşan Metot :
+Void WinIOError(Int32, System.String)
+
+Yorum :
+DeleteFile toplu metot4
+
+-------------------------------------

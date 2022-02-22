@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<MobileParkingSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath />
+  <m_violationImagesPath />
+  <m_thumbNailImagesPath />
+  <m_deleteImages>false</m_deleteImages>
+  <m_protectViolationTime>2</m_protectViolationTime>
+  <m_minViolationTimeMinute>0</m_minViolationTimeMinute>
+  <m_minViolationTimeHour>0</m_minViolationTimeHour>
+  <m_minViolationTimeSecond>0</m_minViolationTimeSecond>
+  <m_maxViolationTimeSecond>0</m_maxViolationTimeSecond>
+  <m_maxViolationTimeMinute>0</m_maxViolationTimeMinute>
+  <m_maxViolationTimeHour>0</m_maxViolationTimeHour>
+  <m_scanImageTime>0</m_scanImageTime>
+</MobileParkingSettings>

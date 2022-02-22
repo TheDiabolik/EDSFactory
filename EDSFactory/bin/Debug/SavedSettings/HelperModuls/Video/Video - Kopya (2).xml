@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Video xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\videoklasörü</m_imagePath>
+  <m_firstCamera>true</m_firstCamera>
+  <m_secondCamera>true</m_secondCamera>
+  <m_thirdCamera>true</m_thirdCamera>
+  <m_fourthCamera>true</m_fourthCamera>
+  <m_autoStart>false</m_autoStart>
+  <m_firstCameraType>L1</m_firstCameraType>
+  <m_secondCameraType>L2</m_secondCameraType>
+  <m_thirdCameraType>L3</m_thirdCameraType>
+  <m_fourthCameraType>L4</m_fourthCameraType>
+  <Cameras>
+    <CameraSettings>
+      <m_streamType>0</m_streamType>
+      <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+      <m_cameraURL>http://10.2.8.136/image1</m_cameraURL>
+      <m_userName>admin</m_userName>
+      <m_password>admin</m_password>
+    </CameraSettings>
+    <CameraSettings>
+      <m_streamType>0</m_streamType>
+      <m_beforeAndAfterSecond>6</m_beforeAndAfterSecond>
+      <m_cameraURL>http://10.13.147.14/axis-cgi/mjpg/video.cgi?resolution=640x480</m_cameraURL>
+      <m_userName>root</m_userName>
+      <m_password>root</m_password>
+    </CameraSettings>
+  </Cameras>
+</Video>

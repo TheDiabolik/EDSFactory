@@ -1,0 +1,51 @@
+-------------------------------------
+Hata Zamanı : 
+04.01.2017 15:08:54
+
+Hata Mesajı :
+Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+
+Hata Oluşan Kod Parçacığı :
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 285
+
+Hata Oluşan Metot :
+Void ClientReceiveProc(System.IAsyncResult)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+04.01.2017 15:14:43
+
+Hata Mesajı :
+Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+
+Hata Oluşan Kod Parçacığı :
+   konum: EDSFactory.SocketCommunication.Client.ClientReceiveProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 285
+
+Hata Oluşan Metot :
+Void ClientReceiveProc(System.IAsyncResult)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------
+-------------------------------------
+Hata Zamanı : 
+04.01.2017 15:14:43
+
+Hata Mesajı :
+Nesne başvurusu bir nesnenin örneğine ayarlanmadı.
+
+Hata Oluşan Kod Parçacığı :
+   konum: EDSFactory.SocketCommunication.Client.ClientSendProc(IAsyncResult iar) d:\.NET Projeler\Video Eklentisi - EDSFactory\EDSFactory\EDSFactory\Classes\TagsConnection\Client.cs içinde: satır 338
+
+Hata Oluşan Metot :
+Void ClientSendProc(System.IAsyncResult)
+
+Yorum :
+CorridorSpeed
+
+-------------------------------------

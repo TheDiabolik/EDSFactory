@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<CrosshatchSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <m_imagePath>D:\Plakalar</m_imagePath>
+  <m_violationImagesPath>D:\Yeni klasör</m_violationImagesPath>
+  <m_thumbNailImagesPath>D:\Yeni klasör\Yeni klasör (2)</m_thumbNailImagesPath>
+  <m_deleteImages>true</m_deleteImages>
+  <m_protectViolationTime>24</m_protectViolationTime>
+  <m_scanImageTime>10</m_scanImageTime>
+</CrosshatchSettings>
